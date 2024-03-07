@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0px;
+}
+#Main{
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#Main > div{
+    width: 250px;
+    height: 380px;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 4px;
+}
+#Main > div > img{
+    width: 230px;
+    height: 160px;
+    margin: 10px;
+}
+#Main > div > h1{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 2px 0px 5px 0px;
+}
+#Main > div > h2{
+    font-size: small;
+    font-family: 'Open Sans', sans-serif;
+    margin: 5px 0px 5px 0px;
+}
+#Main > div > p{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px 5px 1px 0px;
+    font-weight: bold;
+    text-align: end;
+}
+#Main > div > h3{
+    font-size: 15px;
+    text-align: end;
+    color: darkgreen;
+    margin: 5px 5px 1px 0px;
+}
+#Main > div > Button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(96, 63, 0);
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px 0px 5px 140px;
+}
+#Main > div > Button:hover{
+    background-color: rgb(59, 50, 50);
+}
